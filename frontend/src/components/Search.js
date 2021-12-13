@@ -1,15 +1,16 @@
 import "./Search.css";
 
-const Search = () => {
+const Search = ({handleChange, handleSubmit}) => {
   return (
     <div id="search">
-      <form>
+      <p id="error-message"></p>
+      <form onChange={handleChange} onSubmit={handleSubmit}>
         <label>
           Who are you looking for?
           <br />
           <input required type="text" name="name" placeholder="E.g. pikachu" />
         </label>
-        <input type="submit" value="Search" />
+        <input id="search-button" type="submit" value="Search" />
       </form>
     </div>
   );

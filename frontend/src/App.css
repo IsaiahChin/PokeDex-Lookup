@@ -13,8 +13,10 @@ header img {
 }
 
 main {
-  height: 50vh;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 }

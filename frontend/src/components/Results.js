@@ -19,16 +19,17 @@ const Results = ({ pokemonData }) => {
     sortedAbilities.sort();
     sortedMoves.sort();
   }
+
   return pokemonData.map((data, index) => {
     return (
       <span key={index}>
         <div id="pokemon-profile">
-          <h2>{data.name[0].toUpperCase() + data.name.substring(1)}</h2>
+          <h3>{data.name[0].toUpperCase() + data.name.substring(1)}</h3>
           <div id="pokemon-image">
             <img src={data.sprites["front_default"]} />
           </div>
         </div>
-        <h3>Abilities</h3>
+        <h4>Abilities</h4>
         <div id="pokemon-abilities">
           {/* Dynamically display pokemon abilities */}
           {sortedAbilities.map((ability, index) => {
@@ -40,7 +41,8 @@ const Results = ({ pokemonData }) => {
             );
           })}
         </div>
-        <h3>All known Moves</h3>
+        <br />
+        <h4>All known Moves</h4>
         <div id="pokemon-movesets">
           {/* Dynamically display vaild pokemon moves */}
           {sortedMoves.map((move, index) => {

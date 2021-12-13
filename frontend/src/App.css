@@ -10,6 +10,7 @@ header {
 header img {
   max-width: 402px;
   width: 90%;
+  user-select: none;
 }
 
 main {

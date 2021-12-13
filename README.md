@@ -6,16 +6,16 @@ A simple web app that utilises [Pokeapi](https://pokeapi.co/) to search for poke
 
 ![Pokedex empty search state](./preview/pokedex-search.PNG)
 
-`Initial search state (Results scale dynamically)`
+> Initial search state (Results scale dynamically)
 
 ![Pokedex search result](./preview/pokedex-search-result.PNG)
 
-`Charizard results`
+> Charizard results
 
 ![Pokedex error state](./preview/pokedex-error-state.PNG)
 
-`Error state`
+> Error state
 
 ![Pokedex loading state](./preview/pokedex-loading-state.PNG)
 
-`Loading state`
+> Loading state

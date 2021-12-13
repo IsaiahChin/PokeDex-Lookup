@@ -1,0 +1,18 @@
+#search {
+  width: 80%;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+form input {
+  margin-top: 20px;
+  padding: 7px;
+  border: none;
+  border-radius: var(--border-radius);
+}

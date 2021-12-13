@@ -24,7 +24,6 @@ const App = () => {
         setPokemonData(searchResults);
       });
 
-      setIsLoading(false);
       // Clear error message if any
       setErrorMessage("");
     } catch (err) {

@@ -13,6 +13,7 @@ const Search = ({ handleChange, handleSubmit, isLoading }) => {
             name="name"
             placeholder="E.g. pikachu"
             disabled={isLoading}
+            autoFocus
           />
         </label>
         <input

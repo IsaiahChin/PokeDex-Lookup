@@ -20,13 +20,13 @@ const Results = ({ pokemonData }) => {
     sortedMoves.sort();
   }
 
-  return pokemonData.map((data, index) => {
+  return pokemonData.map((pokemon, index) => {
     return (
       <span key={index}>
         <div id="pokemon-profile">
-          <h3>{data.name[0].toUpperCase() + data.name.substring(1)}</h3>
+          <h3>{pokemon.name[0].toUpperCase() + pokemon.name.substring(1)}</h3>
           <div id="pokemon-image">
-            <img src={data.sprites["front_default"]} />
+            <img src={pokemon.sprites["front_default"]} />
           </div>
         </div>
         <h4>Abilities</h4>

@@ -1,7 +1,9 @@
 import "./App.css";
 import pokedexlogo from "./Pokedex.png";
+
 import Search from "./components/Search";
 import Results from "./components/Results";
+import GotoTopButton from "./components/GotoTopButton";
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
@@ -82,6 +84,7 @@ const App = () => {
           )}
         </div>
       </main>
+      <GotoTopButton />
     </div>
   );
 };

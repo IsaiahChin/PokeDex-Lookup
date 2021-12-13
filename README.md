@@ -1,4 +1,4 @@
-# ⚡PokeDex-Lookup
+# ⚡PokeDex Lookup
 
 A simple web app that utilises [Pokeapi](https://pokeapi.co/) to search for pokemon.
 

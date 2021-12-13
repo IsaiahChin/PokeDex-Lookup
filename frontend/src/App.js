@@ -68,11 +68,14 @@ const App = () => {
       </header>
       <main>
         {/* Search Form */}
-        <Search handleChange={handleChange} handleSubmit={handleSubmit} isLoading={isLoading}/>
+        <Search
+          handleChange={handleChange}
+          handleSubmit={handleSubmit}
+          isLoading={isLoading}
+        />
         {/* Search Results */}
         <div id="results">
           <p id="error-message"></p>
-          {/* <Results pokemonData={pokemonData} /> */}
           {isLoading ? (
             <Spinner animation="border" />
           ) : (

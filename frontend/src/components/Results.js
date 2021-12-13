@@ -3,8 +3,8 @@ import "./Results.css";
 const Results = ({ pokemonData }) => {
   return pokemonData.map((data, index) => {
     return (
-      <>
-        <div id="pokemon-profile" key={index}>
+      <span key={index}>
+        <div id="pokemon-profile">
           <h2>{data.name[0].toUpperCase() + data.name.substring(1)}</h2>
           <div id="pokemon-image">
             <img src={data.sprites["front_default"]} />
@@ -36,7 +36,7 @@ const Results = ({ pokemonData }) => {
             );
           })}
         </div>
-      </>
+      </span>
     );
   });
 };

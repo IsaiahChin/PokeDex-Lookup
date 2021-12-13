@@ -20,3 +20,8 @@ main {
   justify-content: center;
   padding: 20px;
 }
+
+#error-message {
+  text-align: center;
+  color: #f77077;
+}

@@ -28,7 +28,6 @@ form #search-button {
   cursor: pointer;
 }
 
-#error-message {
-  text-align: center;
-  color: #f77077;
+form #search-button:disabled {
+  cursor: not-allowed;
 }

@@ -29,5 +29,6 @@ form #search-button {
 }
 
 #error-message {
+  text-align: center;
   color: #f77077;
 }

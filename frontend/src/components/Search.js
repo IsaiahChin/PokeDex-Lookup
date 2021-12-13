@@ -6,7 +6,7 @@ const Search = ({handleChange, handleSubmit}) => {
       <p id="error-message"></p>
       <form onChange={handleChange} onSubmit={handleSubmit}>
         <label>
-          Who are you looking for?
+          Which Pokemon are you looking for?
           <br />
           <input required type="text" name="name" placeholder="E.g. pikachu" />
         </label>
